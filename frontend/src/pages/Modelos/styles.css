@@ -1,0 +1,105 @@
+  body {
+    background: #e4e3e3;
+  }
+
+  .profile-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+    margin-top: -10px;
+  }
+  
+  .profile-container strong {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
+    color: #41414d
+  }
+
+  .profile-container h1{
+    align-self: center;
+    font-size: 50px;
+    color: #3b6978;
+  }
+
+  @media(max-width: 600px){
+    .profile-container h1{
+      font-size: 25px;
+    }
+  }
+  
+  .profile-container header span {
+    font-size: 20px;
+    margin-left: 21px;
+  }
+  
+  .profile-container header img {
+    height: 64px;
+  }
+  
+  .profile-container header a {
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0;
+  }
+  
+  .profile-container header button {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid #c7e2b2;
+    background: transparent;
+    margin-left: 16px;
+  }
+  
+  .profile-container header button:hover {
+    border-color: #e1ffc2;
+  }
+  
+  .profile-container h1 {
+    margin-top: 80px;
+    margin-bottom: 24px;
+  }
+  
+  .profile-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* repeat(2, ifr) */
+    grid-gap: 20px;
+    list-style: none;
+  }
+  
+  .profile-container ul li {
+    background: #84a9ac;
+    padding: 25px;
+    border-radius: 45px;
+    position: relative;
+  }
+  
+  .profile-container ul li button {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+    background-color: transparent;
+  }
+  
+  .profile-container ul li button:hover {
+    opacity: 0.8;
+  }
+  
+  .profile-container ul li strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #204051
+  }
+  
+  .profile-container ul li p + strong {
+    margin-top: 32px;
+  }
+  
+  .profile-container ul li p{
+    color: #3b6978;
+    line-height: 21px;
+    font-size: 20px;
+  }
